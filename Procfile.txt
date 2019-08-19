@@ -1,0 +1,1 @@
+web: gunicorn vaporwave999.wsgi --log-file -
