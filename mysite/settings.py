@@ -25,7 +25,7 @@ SECRET_KEY = 'h*#islyhw1n@bj#q&8nhlagn0k$v_yb)316m#5@#(01b#z=#q1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['andmitez.pythonanywhere.com']
 
 
 # Application definition
@@ -120,6 +120,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# Configure Django App for Heroku.
-import django_heroku
-django_heroku.settings(locals())
+STATIC_ROOT = "/home/AnDmitez/mysite/static/"
+
